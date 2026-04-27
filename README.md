@@ -1,10 +1,7 @@
 # Calculadora Básica + Pruebas Automatizadas y Pipeline CI/CD
 
-## Descripción del Proyecto
-Este repositorio contiene una calculadora básica desarrollada en Python como parte del TPO 2 de la materia Testing de Aplicaciones.
-
 Se implementaron:
-- 4 casos de prueba automatizados con **pytest** (caso exitoso, caso de error y casos borde).
+- 4 casos de prueba automatizados con **pytest** (casos exitosos, caso de error y caso borde).
 - Pipeline de **integración continua (CI/CD)** con **GitHub Actions** que se ejecuta automáticamente en cada push.
 - Generación automática de un reporte HTML (`report.html`).
 
@@ -17,7 +14,6 @@ calculator_tp/
 ├── .github/workflows/
 │   └── test.yml                     # Pipeline de GitHub Actions
 ├── requirements.txt
-├── pytest.ini
 └── README.md
 
 ## Instalar dependencias:
