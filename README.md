@@ -11,11 +11,11 @@ Se implementaron:
 ## Estructura del Proyecto
 calculator_tp/
 ├── app/
-│   └── calculadora.py              # Funciones principales de la calculadora
+│   └── calculator.py              # Funciones principales de la calculadora
 ├── test/
 │   └── test_calculator.py          # Tests automatizados con pytest
 ├── .github/workflows/
-│   └── testyml                     # Pipeline de GitHub Actions
+│   └── test.yml                     # Pipeline de GitHub Actions
 ├── requirements.txt
 ├── pytest.ini
 └── README.md
